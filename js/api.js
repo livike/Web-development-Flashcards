@@ -1,5 +1,5 @@
 var questions1 = [{
-                'question': "\0 meta character does what?",
+                'question': "\\0 meta character does what?",
                 'answer': "finds a nul character"
               },{
                 'question': "7 values that make boolean false",
