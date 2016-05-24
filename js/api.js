@@ -1,4 +1,19 @@
 var questions1 = [{
+                'question': "\0 meta character does what?",
+                'answer': "finds a nul character"
+              },{
+                'question': "7 values that make boolean false",
+                'answer': "0<br>-0<br>null<br>\" \"<br>false<br>undefined<br>NaN <-- not a number"
+              },{
+                'question': "alert box syntax?",
+                'answer': "alert(\"message\");"
+              },{
+                'question': "\\B meta character does what?",
+                'answer': "find a match that is not at the beginning of a word (or returns null)<br>x=\"hello world\"<br>y=/\\Borld/g<br>document.write(x.match(y))--> orld"
+              },{
+                'question': "\\b meta character does what?",
+                'answer': "used to find a match at the beginning or end of a word (if none null)<br>x=\"hello world\"<br>y=/\\bworld/g<br>document.write(x.match(y))--> world"
+              },{
                 'question': "syntax for line breaks in an alert box?",
                 'answer': "\'\/n\' + \" here\""
               },{
@@ -15,7 +30,7 @@ var questions1 = [{
                 'answer': "var stringVar = prompt(\"Text Here\");"
               },{
                 'question': "else if conditional syntax?",
-                'answer': "if(condition) \n { \n code \n} \n else if(condition) \n{\n code \n}"
+                'answer': "if(condition) { code } <br>else if(condition) { code }"
               },{
                 'question': 'Calling an external javascript file syntax?',
                 'answer': "&lt;script type=\"text/javascript\" src=\"javascript.js\" &gt;"
@@ -24,7 +39,7 @@ var questions1 = [{
                 'answer':"Yes!"
               },{
                 'question': "javascript comment syntax?",
-                'answer': "\/**\/ for multiple lines \n \/\/ for a single line"
+                'answer': "\/**\/ for multiple lines <br> \/\/ for a single line"
               },{
                 'question': "If a variable is not a function and does not have var then it is?",
                 'answer': "a global variable"
@@ -35,8 +50,8 @@ var questions1 = [{
                 'question': "x=x+y is the same as what? or x=x\/y?",
                 'answer': "x+=y or x\/=y"
               },{
-                'question': "numbers + strings =? \n 5+\"5\" = ?",
-                'answer': "strings \n 55"
+                'question': "numbers + strings =? <br> 5+\"5\" = ?",
+                'answer': "strings <br> 55"
               },{
                 'question': "javascript starts counting on what?",
                 'answer': "0"
